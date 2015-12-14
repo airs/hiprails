@@ -1,0 +1,6 @@
+<dl>
+  <% @users.each do |user| %>
+    <dt><%= user.name %></dt>
+    <dd><strong><%= user.hips.count %></strong> hips</dd>
+  <% end %>
+</dl>

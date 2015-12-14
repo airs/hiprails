@@ -1,0 +1,2 @@
+module DescriptorHelper
+end
